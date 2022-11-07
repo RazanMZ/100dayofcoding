@@ -1,0 +1,47 @@
+print('''
+ _n_________________
+|_|_______________|_|
+|  ,-------------.  |
+| |  .---------.  | |
+| |  |         |  | |
+| |  |         |  | |
+| |  |         |  | |
+| |  |         |  | |
+| |  `---------'  | |
+| `---------------' |
+|   _ GAME BOY      |
+| _| |_         ,-. |
+||_ O _|   ,-. "._,"|
+|  |_|    "._,"   A | 
+|    _  _    B      | 
+|   // //           |
+|  // //    \\\\\\  |
+|  `  `      \\\\\\ ,
+|________...______,"
+''')
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.") 
+print (" ")
+
+
+left_right=input("jack the explorer :hello friend. lets go exploring! which way do you wanan go? left or right?\n")
+
+
+if left_right== "right":
+  print("you got one shotted by a final boss. Game over lol.")
+  
+elif left_right== "left": 
+ boat=input("jack: hey how about we take the boat?\n")
+
+if boat=="yes" :
+ print("oops pirate took your boat and jack was kidnapped. Game over lol")
+  
+elif boat== "no":
+  door=input("you and jack contunied on the road and faced a huge castle with 3 doors . red ,yellow or blue. which one do you want to take?\n")
+  
+if door=="red" or door=="blue" :
+  print("you had to save jack from drowning . Game over")
+elif door=="yellow":
+  print("you and jack stole the treasure. Good job you got the treasure")
+else:
+  print("you both got murdered by a random ninja turtle")
